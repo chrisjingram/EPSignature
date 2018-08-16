@@ -24,7 +24,7 @@ open class EPSignatureViewController: UIViewController {
     @IBOutlet weak var lblDate: UILabel!
     @IBOutlet weak var viewMargin: UIView!
     @IBOutlet weak var lblX: UILabel!
-    @IBOutlet weak var signatureView: EPSignatureView!
+    @IBOutlet weak open var signatureView: EPSignatureView!
     
     // MARK: - Public Vars
     
